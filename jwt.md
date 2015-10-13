@@ -14,10 +14,12 @@ JWT - IETF RFC 7519 - token
 JWS - IETF RFC 7515 - signature
 JWE - IETF RFC 7516 - encryption
 
-JWT
+JWT - jwt.io
 
 * signed, optionally encrypted set of claims: issuer, subject, audience, expiration, etc
 * Receiving parties can make decisions based on claims, signing party, encrypting party
+* Cannot be revoked, so be careful with your token lifetimes
+* Lack of revokability incurs risk, so lifetimes are generally shorter
 
 JWS
 
@@ -25,4 +27,19 @@ JWS
 
 JWE
 
-* 
+* Optional encryption of jwt payload
+* Either shared secret or public/private key encryption
+
+Apigee?
+
+* no standard policies in Apigee to perform JWT today ... 
+
+* https://github.com/apigee/iloveapis2015-jwt-jwe-jws
+
+Use Case: Partner integration
+
+Likely to become a standard policy?
+
+When to use JWT v. OAuth tokens? (pic)
+
+

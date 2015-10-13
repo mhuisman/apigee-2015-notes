@@ -1,6 +1,8 @@
 # apigee-2015-notes
 Notes from the October 2015 "I Love APIs" conference in San Jose
 
-# [Continuous Integration](ci.md)
+# Monday, 2015.10.12
+* [Continuous Integration](ci.md)
 
-# [JWT, JWS, JWE](jwt.md)
+# Tuesday, 2015.10.13
+* [JWT, JWS, JWE](jwt.md)
