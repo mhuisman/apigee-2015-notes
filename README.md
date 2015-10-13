@@ -6,3 +6,4 @@ Notes from the October 2015 "I Love APIs" conference in San Jose
 
 # Tuesday, 2015.10.13
 * [JWT, JWS, JWE](jwt.md)
+* [Java 8 and Big Data](bigdata-java8.md)
