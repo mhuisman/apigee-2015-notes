@@ -1,7 +1,11 @@
 # apigee-2015-notes
 Notes from the October 2015 "I Love APIs" conference in San Jose
 
-# Continuous Integration - https://github.com/mhuisman/apigee-2015-nodejs-ci
+# Continuous Integration 
+
+repo: https://github.com/mhuisman/apigee-2015-nodejs-ci
+
+overview: 
 
 * Manual intevention in CI process to force a success - the Volkswagen approach.  False positives = expensive!
 
@@ -20,3 +24,12 @@ setup:
 * install grunt plugin: npm install -g generator-apigee-deploy-grunt-api
 
 * run yo: yo apigee-deploy-grunt-api
+
+apiname: mkh
+basepath: /v1
+organization: mkhsfly
+
+deploy and test:
+
+* grunt --env=test --username=<username> --password=<pass> --debug --curl=true --upload-modules
+
