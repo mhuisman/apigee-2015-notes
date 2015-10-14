@@ -1,0 +1,76 @@
+Tue Oct 13 11:35:58 PDT 2015
+
+### Launching a Platform and Igniting a Developer Community
+
+- Adam FitzGerald, Head of Worldwide Developer Marketing at AWS
+    - worked dev relations/marketing at BEA, springsource/vmware/pivotal, aws
+- myth: marketing to developers is tough
+    - but it is easy.. devs are a connoisseur of tech
+    - have a refined taste of tech; compared to other groups
+        - been repeatedly told how productions will solve problems; silver bullets
+        - high bullshit meter
+- how do devs choose a technology to use?
+    - (source: Evans Resource Group and RedMonk)
+    - primary criteria: does product X solve my problem?
+        - example: patent for trumpet that shoots flames out.. patented in 1981
+            - this solves a problem that doesn't exist
+            - APIs need to be able to solve a problem.
+    - second criteria: are other people using X?
+        - 95%+ devs care about what others are using
+        - when multiple tech solutions solve the same problem, the one with the best community wins
+        - community matters: 
+            - validates your choice
+            - more people -> more likely to evolve
+- Developer Marketing Basics (6 steps)
+    - Step 1. Do Documentation Right
+        - just writing swagger on endpoint is not enough
+        - the developers should be writing the docs (not tech writers, evangelists)
+        - the long-tail of web traffic
+            - e.g., 75% of web traffic to spring webstie was to the docs section
+                - thus, incredibly important to be accurate, correct
+            - SEO optimize it 
+        - see github blob post: [How GitHub uses GitHub to document GitHub](https://github.com/blog/1939-how-github-uses-github-to-document-github)
+        - write your docs in markdown in github
+            - use github pages (jekyll)
+            - allows people to correct it/update/adapt it with pull requests
+        - AWS
+            - has direct feedback mechanism on docs (top right link)
+    - Step 2: Remove barriers to get started
+        - every barrier that is put in front of developer that hinders them from creating a MVP 
+          is an excuse to not use it. e.g., paywall, access key generation
+            - removes as many of these as possible
+            - let them signin with other accounts they have (e.g., LDAP)
+            - use sample access key if needed
+        - good example: 
+            - Twilio quickstart tutorials
+                - more than just docs, but how to solve a problem using APIs
+                - best way to onboard developers
+            - AWS generation of SDKs per language
+                - to make it easier for devs to use APIs
+                - recently released go plugin for aws
+    - Step 3: Be responsive
+        - if people are using your stuff, congrats, but you still need to listen and be responsive
+        - if you haven't already set up a dev portal, don't do forums 
+            - people are already asking questions somewhere (stackoverflow)
+    - Step 4: Find your hero
+        - people want to know that are other people are using your product
+        - e.g., architect that set up microservices for netflix
+            - he did more for AWS than anyone in AWS could have done
+            - his voice helped drive community of usage
+        - you should highlight first users who are successful
+        - example: AWS Community Heroes
+    - Step 5: Be a cheerleader
+        - example:
+            - This week in Spring, every Tuesday (John Long)
+                - list all the blog posts positive talking about spring
+                - most popular blog post type on the website
+            - AWS Week in Review
+                - AWS announcements
+                - links to cool things people are doing on aws
+    - Step 6: Listen Actively
+        - at AWS, over 90% of tech roadmap is created by users/customers
+            - need to pay attention to people using your product
+        - set up dev chats, customer advisory boards
+        - listen outside normal channels (stack overflow, hacker news, etc)
+        - this info should direct product roadmap
+        - build what customers are asking for; they'll become more active and tell others 
